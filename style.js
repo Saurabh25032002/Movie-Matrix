@@ -10,7 +10,7 @@ const inputBox=document.querySelector('.inputBox');
 
     try{
         const apikeyy="38311a73";
-const url=`http://www.omdbapi.com/?apikey=${apikeyy}&t=${movie}`;
+const url=`https://www.omdbapi.com/?apikey=${apikeyy}&t=${movie}`;
 const response= await fetch(url);
 
 if(!response.ok)
